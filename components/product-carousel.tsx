@@ -81,7 +81,7 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
           variant="secondary"
           size="icon"
           onClick={() => scrollPrev(emblaApi)}
-          className="h-8 w-8 rounded-full"
+          className="h-8 w-8 rounded-full cursor-pointer"
         >
           <ChevronLeft className="h-4 w-4" />
           <span className="sr-only">Previous image</span>
@@ -96,7 +96,7 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
           <span className="sr-only">Next image</span>
         </Button>
       </div>
-      <div className="mt-4 overflow-hidden" ref={thumbsRef}>
+      <div className="mt-4 overflow-hidden w-fit" ref={thumbsRef}>
         <div className="flex gap-2">
           {images.map((src, index) => (
             <button

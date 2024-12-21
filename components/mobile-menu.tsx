@@ -42,13 +42,13 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             >
               Browse Products
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-2xl font-medium transition-colors hover:text-primary"
               onClick={onClose}
             >
               Contact & Support
-            </Link>
+            </Link> */}
             <Link
               href="#"
               className="text-2xl font-medium transition-colors hover:text-primary"
@@ -56,13 +56,13 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               href="#"
               className="text-2xl font-medium transition-colors hover:text-primary"
               onClick={onClose}
             >
               Pricing
-            </Link>
+            </Link> */}
             <Link
               href="#"
               className="text-2xl font-medium transition-colors hover:text-primary"

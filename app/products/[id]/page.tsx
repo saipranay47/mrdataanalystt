@@ -26,12 +26,12 @@ async function getProduct(id: string) {
       fakePrice: "₹2799",
       category: "Templates",
       highlights: [
+        "Step-by-step video tutorial",
         "Interactive Power BI Dashboard",
         "Fuel type & model filters",
         "Dynamic brand selector",
         "High-quality visuals & icons",
         "Clean, ready-to-use dataset",
-        "Step-by-step video tutorial",
       ],
       longDescription: `
         <div class="">
@@ -71,11 +71,11 @@ async function getProduct(id: string) {
       fakePrice: "₹2799",
       category: "Fonts",
       highlights: [
+        "Step-by-step tutorial",
         "Ready-to-use Power BI files",
         "Curated datasets included",
         "Customizable analysis options",
         "Genre & country filters",
-        "Step-by-step tutorial",
         "Logos for personalization",
       ],
       longDescription: `
@@ -105,10 +105,10 @@ async function getProduct(id: string) {
       fakePrice: "₹2799",
       category: "Fonts",
       highlights: [
+        "Step-by-step video guide",
         "Complete Airbnb dataset",
         "Interactive booking dashboard",
         "Customizable visuals & icons",
-        "Step-by-step video guide",
         "Ready-to-use resources",
         "Ideal for India-based analysis",
       ],

@@ -21,11 +21,13 @@ const products = [
     title: "Car Sales Dashboard",
     description: "Monitor your Car Sales with our Dashboard Template.",
     image: "/car.png?height=200&width=300",
+    link: "/products/1",
   },
   {
     title: " Netflix Dashboard",
     description: "Rating and Reviews Dashboard for Netflix.",
     image: "/netflix.png?height=200&width=300",
+    link: "/products/2",
   },
 ];
 
@@ -64,7 +66,11 @@ export function Navbar() {
           <NavigationMenu className="hidden md:flex">
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger>Browse Dashboards</NavigationMenuTrigger>
+                <Link href="/products" passHref>
+                  <NavigationMenuTrigger>
+                    Browse Dashboards
+                  </NavigationMenuTrigger>
+                </Link>
                 <NavigationMenuContent>
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
@@ -83,7 +89,7 @@ export function Navbar() {
                       {products.map((product) => (
                         <Link
                           key={product.title}
-                          href="#"
+                          href={product.link}
                           className="group flex flex-col items-start gap-2 rounded-md bg-transparent p-4 hover:bg-muted"
                         >
                           <div className="relative h-[150px] w-full overflow-hidden rounded-md">
@@ -123,7 +129,7 @@ export function Navbar() {
                   </motion.div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
-              <NavigationMenuItem>
+              {/* <NavigationMenuItem>
                 <NavigationMenuTrigger>Contact & Support</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <motion.div
@@ -156,23 +162,23 @@ export function Navbar() {
                     ))}
                   </motion.div>
                 </NavigationMenuContent>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
+              </NavigationMenuItem> */}
+              {/* <NavigationMenuItem>
                 <Link href="#" legacyBehavior passHref>
                   <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
                     About
                   </NavigationMenuLink>
                 </Link>
-              </NavigationMenuItem>
-              <NavigationMenuItem>
+              </NavigationMenuItem> */}
+              {/* <NavigationMenuItem>
                 <Link href="#" legacyBehavior passHref>
                   <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
                     Pricing
                   </NavigationMenuLink>
                 </Link>
-              </NavigationMenuItem>
+              </NavigationMenuItem> */}
               <NavigationMenuItem>
-                <Link href="#" legacyBehavior passHref>
+                <Link href="/wall-of-love" legacyBehavior passHref>
                   <NavigationMenuLink className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50">
                     Wall of Love <Heart className="ml-1 h-4 w-4" />
                   </NavigationMenuLink>
@@ -182,8 +188,8 @@ export function Navbar() {
           </NavigationMenu>
           <div className="ml-auto flex items-center gap-4">
             <Button asChild className="hidden md:inline-flex">
-              <Link href="#" className="gap-2">
-                Join Membership
+              <Link href="#social" className="gap-2">
+                Join Community
                 <motion.span
                   initial={{ x: -5 }}
                   animate={{ x: 0 }}

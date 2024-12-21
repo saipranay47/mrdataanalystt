@@ -104,3 +104,25 @@
 .product-overview > *:not(:last-child) {
   @apply mb-10; /* Space between sections */
 }
+
+@layer utilities {
+  .animate-drift {
+    animation: drift 20s infinite;
+  }
+
+  .animate-drift-slow {
+    animation: drift 30s infinite reverse;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  50% {
+    transform: translate(10%, 10%) rotate(180deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
