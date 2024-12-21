@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen flex items-center justify-center p-4  bg-cover bg-center bg-no-repeat relative overflow-hidden">
+    <div className="w-full min-h-screen flex items-center justify-center p-2  bg-cover bg-center bg-no-repeat relative overflow-hidden">
       <div
         className="absolute inset-0  bg-cover bg-center bg-no-repeat"
         style={{ filter: "blur(5px)" }}
@@ -25,7 +25,7 @@ export default function Home() {
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center justify-between rounded-xl p-4 sm:p-8 relative z-10">
         <div className="w-full lg:w-1/2 lg:mb-0">
           <BlurFade delay={0.15}>
-            <h1 className="text-black text-5xl sm:text-5xl font-bold leading-loose mb-4">
+            <h1 className="text-black text-3xl sm:text-5xl font-bold  mb-4">
               Accelerate Your Data Analysis With Ready-to-Use Dashboards
             </h1>
           </BlurFade>
@@ -40,15 +40,15 @@ export default function Home() {
 
           <BlurFade delay={0.25}>
             <div className="flex flex-wrap gap-3 mb-12">
-              <Link href="/products">
-                <Button className="w-[183px] h-[59px] text-base font-bold bg-black rounded-xl flex items-center justify-center">
+              <Link href="/products" className="max-sm:w-full">
+                <Button className="sm:w-[183px] w-full h-[59px] text-base font-bold bg-black rounded-xl flex items-center justify-center">
                   Get Started Now
                 </Button>
               </Link>
-              <Link href="/products">
+              <Link href="/products" className="max-sm:w-full">
                 <Button
                   variant="outline"
-                  className="w-[183px] h-[59px] text-base font-bold rounded-xl flex items-center justify-center border-black border-2 border-opacity-10 hover:bg-white"
+                  className="sm:w-[183px] w-full h-[59px] text-base font-bold rounded-xl flex items-center justify-center border-black border-2 border-opacity-10 hover:bg-white"
                 >
                   View Dashboards
                 </Button>
