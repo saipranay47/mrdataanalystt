@@ -15,21 +15,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
-
-const products = [
-  {
-    title: "Car Sales Dashboard",
-    description: "Monitor your Car Sales with our Dashboard Template.",
-    image: "/car.png?height=200&width=300",
-    link: "/products/1",
-  },
-  {
-    title: " Netflix Dashboard",
-    description: "Rating and Reviews Dashboard for Netflix.",
-    image: "/netflix.png?height=200&width=300",
-    link: "/products/2",
-  },
-];
+import { navigationProducts } from "@/config/products";
 
 const support = [
   {
@@ -86,7 +72,7 @@ export function Navbar() {
                       transition={{ duration: 0.2 }}
                     />
                     <div className="grid grid-cols-2 gap-4">
-                      {products.map((product) => (
+                      {navigationProducts.map((product) => (
                         <Link
                           key={product.title}
                           href={product.link}

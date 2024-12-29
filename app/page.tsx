@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { FeaturesSectionDemo } from "@/components/featursSection";
-import products from "@/data/products.json";
+import { products } from "@/config/products";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { VideoSection } from "@/components/video-section";
@@ -94,9 +94,6 @@ export default function Page() {
                 <div className="mt-4 flex gap-2">
                   <Button size="sm" asChild>
                     <Link href={`/products/${product.id}`}>Know More</Link>
-                  </Button>
-                  <Button size="sm" variant="outline">
-                    Live Preview
                   </Button>
                 </div>
               </div>

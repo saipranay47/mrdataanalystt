@@ -4,12 +4,14 @@ import * as React from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+import Link from "next/link";
 
 interface PurchaseWidgetProps {
   title: string;
   description: string;
   price: string;
   previewImg: string;
+  purchaseLink: string;
 }
 
 export function PurchaseWidget({
@@ -17,6 +19,7 @@ export function PurchaseWidget({
   description,
   price,
   previewImg,
+  purchaseLink,
 }: PurchaseWidgetProps) {
   return (
     <div className="rounded-lg border bg-card p-4 h-fit">
@@ -37,9 +40,10 @@ export function PurchaseWidget({
         <Badge variant="secondary">{price}</Badge>
       </div>
       <div className="mt-6 space-y-4">
-        <Button className="w-full">Purchase Now</Button>
-        <Button variant="outline" className="w-full">
-          Live Preview
+        <Button className="w-full" asChild>
+          <Link href={purchaseLink} target="_blank">
+            Purchase Now
+          </Link>
         </Button>
       </div>
     </div>

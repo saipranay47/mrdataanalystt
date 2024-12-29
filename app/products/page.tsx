@@ -3,35 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-
-const products = [
-  {
-    id: 1,
-    title: "Car Sales Dashboard",
-    description: "Monitor your Car Sales with our Dashboard Template.",
-    image: "/car.png",
-    price: "₹199",
-    category: "Templates",
-  },
-  {
-    id: 2,
-    title: "Netflix Dashboard",
-    description:
-      "Ratings, Genres, Shows by Country & Year, and much more in a single Dashboard.",
-    image: "/netflix.png",
-    price: "₹99",
-    category: "Fonts",
-  },
-  {
-    id: 3,
-    title: "Airbnb Hotels Dashboard ",
-    description:
-      "Monitor your Airbnb Hotel Bookings with our Dashboard Template.",
-    image: "/airbnb.png",
-    price: "₹149",
-    category: "Fonts",
-  },
-];
+import { products } from "@/config/products";
 
 const categories = ["Templates", "Mockups", "Courses", "Fonts"];
 
@@ -71,11 +43,10 @@ export default function ProductsPage() {
                 {product.description}
               </p>
               <div className="mt-4 flex gap-2">
-                <Button size="sm" asChild>
-                  <Link href={`/products/${product.id}`}>Know More</Link>
-                </Button>
-                <Button size="sm" variant="outline">
-                  Live Preview
+                <Button size="sm" asChild className="w-full">
+                  <Link href={product.purchaseLink} target="_blank">
+                    Grab Now
+                  </Link>
                 </Button>
               </div>
             </div>
