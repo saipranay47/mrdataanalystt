@@ -81,7 +81,7 @@ export default function Home() {
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mt-4 lg:mt-0">
           <div className="relative w-full max-w-[400px] sm:max-w-[520px] md:max-w-[600px] lg:max-w-3xl h-[550px] sm:h-[650px] md:h-[700px] lg:h-[750px]">
             <Card
-              src="/car.png"
+              src="/car/car.png"
               alt="Car Sales Dashboard"
               width={490}
               height={259}
