@@ -96,7 +96,7 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
           <span className="sr-only">Next image</span>
         </Button>
       </div>
-      <div className="mt-4 overflow-hidden w-fit" ref={thumbsRef}>
+      {/* <div className="mt-4 overflow-hidden w-fit" ref={thumbsRef}>
         <div className="flex gap-2">
           {images.map((src, index) => (
             <button
@@ -108,14 +108,35 @@ export function ProductCarousel({ images }: ProductCarouselProps) {
             >
               <Image
                 src={src}
-                alt={`Product thumbnail ${index + 1}`}
+                alt={`Product thumbnail ${index}`}
                 fill
                 className="object-cover"
               />
             </button>
           ))}
         </div>
+      </div> */}
+      <div className="mt-4 overflow-hidden w-fit" ref={thumbsRef}>
+        <div className="flex gap-2">
+          {images.map((src, index) => (
+        <button
+              key={index}
+              onClick={() => onThumbClick(index)}
+              className={`relative aspect-[4/3] w-20 flex-[0_0_auto] overflow-hidden rounded-md ${
+              index === selectedIndex ? "ring-2 ring-primary" : ""
+              }`}
+            >
+          <Image
+             src={src}
+             alt={`Product thumbnail ${index}`}
+             fill
+             className="object-cover"
+          />
+        </button>
+        ))}
+        </div>
       </div>
+      
       <Dialog open={isPreviewOpen} onOpenChange={setIsPreviewOpen}>
         <DialogContent className="max-w-7xl">
           <Button

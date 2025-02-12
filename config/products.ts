@@ -66,7 +66,7 @@ export const products: Product[] = [
         <p><strong>Get started today – Buy this Dashboard now and grab your Car Sales Power BI Dashboard now!</strong></p>
       </div>
     `,
-    purchaseLink: "https://gumroad.com/l/car-sales-dashboard",
+    purchaseLink: "https://rzp.io/rzp/3mmQ9kgG",
   },
   {
     id: 2,
@@ -74,7 +74,7 @@ export const products: Product[] = [
     description:
       "Ratings, Genres, Shows by Country & Year, and much more in a single Dashboard.",
     image: "/netflix.png",
-    carouselImages: ["/netflix.png", "/netflix-2.png", "/netflix-3.png"],
+    carouselImages: ["/netflix.png",],
     heroImage: "/netflix-hero.png",
     price: "₹99",
     fakePrice: "₹2799",
@@ -106,7 +106,7 @@ export const products: Product[] = [
         <p><strong>Boost your analytics skills</strong> and showcase your expertise with this incredible project!</p>
       </div>
     `,
-    purchaseLink: "https://gumroad.com/l/netflix-dashboard",
+    purchaseLink: "https://rzp.io/rzp/GKDaqwJ",
   },
   {
     id: 3,
@@ -114,7 +114,7 @@ export const products: Product[] = [
     description:
       "Monitor your Airbnb Hotel Bookings with our Dashboard Template.",
     image: "/airbnb.png",
-    carouselImages: ["/airbnb.png", "/airbnb-2.png", "/airbnb-3.png"],
+    carouselImages: ["/airbnb.png",],
     heroImage: "/airbnb-hero.png",
     price: "₹149",
     fakePrice: "₹2799",
@@ -145,7 +145,7 @@ export const products: Product[] = [
         <p><strong>Upgrade your resume</strong> and impress recruiters with this practical project!</p>
       </div>
     `,
-    purchaseLink: "https://gumroad.com/l/airbnb-dashboard",
+    purchaseLink: "https://rzp.io/rzp/X3i7ce7",
   },
 ];
 

@@ -45,7 +45,7 @@ export default function ProductsPage() {
                 <p className="mt-2 text-sm text-muted-foreground">
                   {product.description}
                 </p>
-                <Button size="sm" className="w-full">
+                <Button size="sm" className="w-full mt-3">
                   Grab Now
                 </Button>
               </div>
