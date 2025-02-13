@@ -10,7 +10,7 @@ import { FlashyPurchaseToasts } from "@/hooks/use-purchase-toasts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Framer - Create and Sell Digital Products",
+  title: "Mr. Data Analyst",
   description:
     "Empower your business with Framer. Create and sell digital products to reach a wider audience.",
   keywords: ["Framer", "digital products", "templates", "mockups", "courses"],
