@@ -19,6 +19,63 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    id: 4,
+    title: "American Express Dashboard ",
+    description:
+      "Unlock professional financial analytics with this American Express Power BI Dashboard.",
+    image: "/Aexpress2.png",
+    carouselImages: ["/Aexpress2.png", "/AEEEEE.png"],
+    heroImage: "/amex-hero.png",
+    price: "₹199",
+    fakePrice: "₹2799",
+    category: "Templates",
+    rating: {
+      value: 4.8,
+      count: 50,
+    },
+    highlights: [
+      "Extracted Financial Dataset",
+      "Fully Built Power BI Dashboard (PBIX File)",
+      "Interactive Filters & Visuals",
+      "Income, Expenses & Savings KPIs",
+      "Step-by-Step Tutorial Video",
+      "High-Quality Icons & Professional Themes",
+      "Personal Assistance",
+    ],
+    longDescription: `
+      <div>
+        <p><strong>🚀 Unlock Professional Financial Analytics with This American Express Power BI Dashboard!</strong></p>
+        <p>Looking to level up your data analysis skills and make your resume stand out?</p>
+        <p>This <strong>American Express Financial Dashboard</strong> is the perfect real-world Power BI project to show recruiters your true potential.</p>
+        <p>With beautiful UI/UX, dynamic filters, and deep financial insights, this dashboard gives a complete view of income, expenses, savings, and card usage—designed just like a professional fintech analytics solution.</p>
+        <h3>📦 What's Inside:</h3>
+        <ul>
+          <li><strong>Extracted Financial Dataset</strong> – Clean, structured data that's ready for analysis.</li>
+          <li><strong>Fully Built Power BI Dashboard (PBIX File)</strong> – Modern dark UI, premium design, and real-world KPIs.</li>
+          <li><strong>Interactive Filters & Visuals</strong> – Understand trends across months, monitor card usage, and analyze transactions with ease.</li>
+          <li><strong>Income, Expenses & Savings KPIs</strong> – Professionally designed cards to showcase high-impact metrics.</li>
+          <li><strong>Financial Statistics Dashboard</strong> – Monthly income vs. amount used with detailed bar and line charts.</li>
+          <li><strong>Transactions Overview</strong> – Clean layout showing merchants, amounts, and payment status.</li>
+          <li><strong>Step-by-Step Tutorial Video</strong> – Learn exactly how the entire dashboard was built from scratch.</li>
+          <li><strong>High-Quality Icons & Professional Themes</strong> – Enhance the aesthetics and make your portfolio shine.</li>
+          <li><strong>Personal Assistance</strong> – Reach out anytime if you need guidance setting up or customizing your dashboard.</li>
+        </ul>
+        <h3>⭐ Why You Need This Project:</h3>
+        <ul>
+          <li>Build a real-world finance domain project for your Power BI portfolio</li>
+          <li>Show recruiters your ability to analyze and visualize complex financial data</li>
+          <li>Learn hands-on skills that AI tools cannot replace</li>
+          <li>Perfect for students, job seekers, and professionals entering the analytics field</li>
+          <li>Boost your resume with an eye-catching project that stands out in interviews</li>
+        </ul>
+        <p><strong>🛒 Start Your Data Journey Today!</strong></p>
+        <p>Get instant access — the complete project file will be sent directly to your email as soon as you purchase.</p>
+        <p><strong>Buy now and download your American Express Power BI Dashboard today!</strong></p>
+      </div>
+    `,
+    purchaseLink: "",
+  },
+  {
     id: 1,
     title: "Car Sales Dashboard",
     description: "Monitor your Car Sales with our Dashboard Template.",
@@ -74,7 +131,7 @@ export const products: Product[] = [
     description:
       "Ratings, Genres, Shows by Country & Year, and much more in a single Dashboard.",
     image: "/netflix.png",
-    carouselImages: ["/netflix.png",],
+    carouselImages: ["/netflix.png"],
     heroImage: "/netflix-hero.png",
     price: "₹99",
     fakePrice: "₹2799",
@@ -114,7 +171,7 @@ export const products: Product[] = [
     description:
       "Monitor your Airbnb Hotel Bookings with our Dashboard Template.",
     image: "/airbnb.png",
-    carouselImages: ["/airbnb.png",],
+    carouselImages: ["/airbnb.png"],
     heroImage: "/airbnb-hero.png",
     price: "₹149",
     fakePrice: "₹2799",

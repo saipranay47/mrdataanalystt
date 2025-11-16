@@ -1,5 +1,13 @@
 [
     {
+        "id": 4,
+        "title": "American Express Dashboard",
+        "description": "Unlock professional financial analytics with this American Express Power BI Dashboard.",
+        "image": "/Aexpress2.png",
+        "price": "₹199",
+        "category": "Templates"
+    },
+    {
         "id": 1,
         "title": "Car Sales Dashboard",
         "description": "Monitor your Car Sales with our Dashboard Template.",
