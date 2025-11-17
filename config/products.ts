@@ -73,7 +73,7 @@ export const products: Product[] = [
         <p><strong>Buy now and download your American Express Power BI Dashboard today!</strong></p>
       </div>
     `,
-    purchaseLink: "",
+    purchaseLink: "https://rzp.io/rzp/JLfoiKh",
   },
   {
     id: 1,
