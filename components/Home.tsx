@@ -89,9 +89,18 @@ export default function Home() {
               isVisible={isVisible}
               initialTransform="translate(-45%, -120%) rotate(8deg)"
             />
-            <Card
+            {/* <Card
               src="/netflix.png"
               alt="Netflix Dashboard"
+              width={294}
+              height={305}
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] sm:w-[252px] md:w-[294px] lg:w-[294px]"
+              isVisible={isVisible}
+              initialTransform="translate(-85%, -30%) rotate(-8deg)"
+            /> */}
+            <Card
+              src="/royal enfield/royal enfield .png"
+              alt="Royal Enfield Dashboard"
               width={294}
               height={305}
               className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] sm:w-[252px] md:w-[294px] lg:w-[294px]"

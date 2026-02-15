@@ -213,7 +213,7 @@ export const products: Product[] = [
     carouselImages: [
       "/royal enfield/royal enfield .png",
       "/royal enfield/2.png",
-      "/royal enfield/3.png",
+      // "/royal enfield/3.png",
       "/royal enfield/4.png",
       "/royal enfield/5.png",
       "/royal enfield/6.png",
@@ -305,21 +305,15 @@ export const products: Product[] = [
 
 export const navigationProducts = [
   {
-    title: "Car Sales Dashboard",
-    description: "Monitor your Car Sales with our Dashboard Template.",
-    image: "/car/car.png",
-    link: "/products/1",
-  },
-  {
-    title: "Netflix Dashboard",
-    description: "Rating and Reviews Dashboard for Netflix.",
-    image: "/netflix.png",
-    link: "/products/2",
-  },
-  {
     title: "Royal Enfield Sales Dashboard",
     description: "Unlock powerful automotive sales analytics.",
     image: "/royal enfield/royal enfield .png",
     link: "/products/5",
+  },
+  {
+    title: "Car Sales Dashboard",
+    description: "Monitor your Car Sales with our Dashboard Template.",
+    image: "/car/car.png",
+    link: "/products/1",
   },
 ];
