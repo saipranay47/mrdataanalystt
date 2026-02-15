@@ -204,6 +204,103 @@ export const products: Product[] = [
     `,
     purchaseLink: "https://rzp.io/rzp/X3i7ce7",
   },
+  {
+    id: 5,
+    title: "Royal Enfield Sales Dashboard",
+    description:
+      "Unlock powerful automotive sales analytics with this complete Power BI project.",
+    image: "/royal enfield/royal enfield .png",
+    carouselImages: [
+      "/royal enfield/royal enfield .png",
+      "/royal enfield/2.png",
+      "/royal enfield/3.png",
+      "/royal enfield/4.png",
+      "/royal enfield/5.png",
+      "/royal enfield/6.png",
+      "/royal enfield/7.png",
+      "/royal enfield/8.png",
+      "/royal enfield/9.png",
+    ],
+    heroImage: "/royal enfield/royal enfield hero.png",
+    price: "₹299",
+    fakePrice: "₹2999",
+    category: "Templates",
+    rating: {
+      value: 4.8,
+      count: 24,
+    },
+    highlights: [
+      "Extracted Royal Enfield Sales Dataset",
+      "Fully Built Power BI Dashboard (PBIX File)",
+      "Model-Wise Sales Analysis",
+      "Sales KPIs – Total Revenue, Units Sold",
+      "Country-Wise Sales Dashboard",
+      "Year-Wise Sales Trend Dashboard",
+      "Interactive Filters & Dynamic Visuals",
+      "Step-by-Step Power BI Tutorial Video",
+      "All Images, Icons & Design Assets Used",
+      "Professional Layout & Design Techniques",
+      "Personal Assistance",
+    ],
+    longDescription: `
+      <div>
+        <p><strong>📈 Project Highlights – Real-World Sales Analytics in Power BI</strong></p>
+        <p>This Power BI sales dashboard project simulates a real automotive analytics use case.</p>
+        <h3>You’ll learn how to:</h3>
+        <ul>
+            <li>Create executive-level KPI cards in Power BI</li>
+            <li>Perform model-wise performance comparison</li>
+            <li>Build a country-wise sales analysis dashboard</li>
+            <li>Apply conditional formatting and visual hierarchy</li>
+            <li>Design interactive filters and slicers</li>
+            <li>Create professional sales trend visualizations</li>
+            <li>Structure a portfolio-ready Power BI dashboard</li>
+        </ul>
+        <h3>This project is ideal for:</h3>
+        <ul>
+            <li>Power BI beginners to intermediate learners</li>
+            <li>Data analyst portfolio preparation</li>
+            <li>Power BI interview project practice</li>
+            <li>Students building real-world analytics experience</li>
+            <li>Professionals transitioning into data analytics</li>
+        </ul>
+        <h3>🎯 Why This Power BI Dashboard Project Stands Out</h3>
+        <p>Unlike basic sample dashboards, this project includes:</p>
+        <ul>
+            <li>Multiple model-level dashboards</li>
+            <li>Realistic sales KPIs and business insights</li>
+            <li>Professional UI/UX layout</li>
+            <li>Clean storytelling structure</li>
+            <li>Industry-style dashboard formatting</li>
+        </ul>
+        <p>This is not just a tutorial — it’s a complete Power BI portfolio project.</p>
+        <h3>📦 Instant Access</h3>
+        <p>Once you complete your purchase, you’ll receive:</p>
+        <ul>
+            <li>The complete Power BI tutorial video</li>
+            <li>The fully built PBIX file</li>
+            <li>The dataset used in the project</li>
+            <li>All icons, images, and design resources</li>
+        </ul>
+        <p>Everything will be delivered directly to your email so you can start building immediately.</p>
+        <h3>📊 What You Will Get</h3>
+        <ul>
+            <li>Extracted Royal Enfield Sales Dataset (Clean & Structured)</li>
+            <li>Fully Built Power BI Dashboard (PBIX File)</li>
+            <li>Model-Wise Sales Analysis (Classic 350, Meteor 350, Hunter 350, Interceptor 650, Continental GT 650, Bullet 350, Himalayan 411)</li>
+            <li>Sales KPIs – Total Revenue, Units Sold, Customer Ratings</li>
+            <li>Country-Wise Sales Dashboard (Top Markets Analysis)</li>
+            <li>Year-Wise Sales Trend Dashboard (Line & Area Charts)</li>
+            <li>Interactive Filters & Dynamic Visuals</li>
+            <li>Step-by-Step Power BI Tutorial Video</li>
+            <li>All Images, Icons & Design Assets Used</li>
+            <li>Professional Layout, Theme & Dashboard Design Techniques</li>
+            <li>Personal Assistance</li>
+        </ul>
+      </div>
+    `,
+    purchaseLink: "https://rzp.io/rzp/WljRxHDl",
+  },
 ];
 
 export const navigationProducts = [
@@ -218,5 +315,11 @@ export const navigationProducts = [
     description: "Rating and Reviews Dashboard for Netflix.",
     image: "/netflix.png",
     link: "/products/2",
+  },
+  {
+    title: "Royal Enfield Sales Dashboard",
+    description: "Unlock powerful automotive sales analytics.",
+    image: "/royal enfield/royal enfield .png",
+    link: "/products/5",
   },
 ];
